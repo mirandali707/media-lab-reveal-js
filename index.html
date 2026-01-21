@@ -4,20 +4,24 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Research @ Scale 2026: Miranda Li</title>
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="dist/theme/media_lab.css">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
 	</head>
 	<body>
 		<div class="reveal">
+			<div class="persistent-logos">
+				<img src="logos/MIT_ML_Symbol_K_RGB.png" alt="MIT ML Logo">
+				<img src="logos/PersonalRobots_Symbol_K_RGB.png" alt="Personal Robots Logo">
+			</div>
+
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+                <section data-markdown="mirandamarkdown.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
 			</div>
 		</div>
 
@@ -31,7 +35,7 @@
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
-
+				slideNumber: true,
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
 			});
