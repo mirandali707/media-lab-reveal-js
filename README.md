@@ -1,3 +1,16 @@
+# Miranda says hello // usage instructions
+I made `media_lab_template.html` for `reveal.js` to emulate the light mode Keynote slide format from the [Media Lab Communications website](https://www.media.mit.edu/groups/communications/design/), with the ML and group logo in the bottom left corner.
+
+Here's my recommendation for how to use this template, if you want:
+1. Install Node.js (10.0.0 or later)
+2. `git clone https://github.com/mirandali707/media-lab-reveal-js.git`
+3. `cd reveal.js && npm install`
+4. If you're planning to write your slides in HTML, copy-paste `media_lab_template.html` into `index.html`. If you're a Markdown enjoyer like myself, you can see how I've integrated `mirandamarkdown.md` into `index.html` (which also uses the template formatting) and go from there.
+5. If you're not in PRG, **download your group logo from the link above and place it in `/logos`**! I chose the glyph version, .png, but I suppose you could do whatever you like.
+6. `npm start`
+7. Open http://localhost:8000 to view the presentation.
+
+# reveal.js README
 <p align="center">
   <a href="https://revealjs.com">
   <img src="https://hakim-static.s3.amazonaws.com/reveal-js/logo/v1/reveal-black-text-sticker.png" alt="reveal.js" width="500">
