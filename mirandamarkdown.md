@@ -1,12 +1,6 @@
 # Labububot
 Miranda Li
 
-Jake Read
-
-Dimitar Dimitrov
-
-Cynthia Breazeal
-
 
 
 <!-- TODO add img thumbnail -->
