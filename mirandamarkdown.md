@@ -49,26 +49,66 @@ Existing methods are...
 </div>
 
 
-language as a solution
-also bad: ambiguous
 
+Maybe LLMs / VLMs are the answer?
 
+<div class="fragment fade-in-then-semi-out" data-fragment-index="1">
+    "the sharper the utensil the further away from the person it should be"
+    <img src="img/vlm_human.png" style="display: block; height: auto; width: 100%; max-width: 100%; max-height: none; margin: 0;">
+</div>
 
-# ($\phi$)toshop
-what it is: interface and algorithm
-
-existing methods vs ($\phi$)toshop
-
-tedious -> intuitive
-expensive -> efficient
-uninterpretable -> interpretable by design
-ambiguous -> precise
-<p class="fragment fade-in-then-semi-out">
-fragement
+<p class="fragment fade-in-then-semi-out" data-fragment-index="2">
+Language is too ambiguous to capture specific spatial relationships.
 </p>
-<p class="fragment fade-in-then-semi-out">
-fragement
-</p>
+
+
+
+
+<!-- # ($\phi$)toshop -->
+<section data-auto-animate>
+    <img src="img/phitoshop_logo.jpeg" style="height: 300px; object-fit: contain; width: 100%;">
+    <!-- <h1>($\phi$)toshop</h1> -->
+
+An interactive visual interface 
+
+which makes the robot's representation directly manipulable 
+
+via visual annotation,
+
+and the algorithm to make this possible.
+</section>
+
+
+
+<div style="display: flex; gap: 24px; width: 100%;">
+    <div style="flex: 1; min-width: 0;">
+        <div style="height: 100px">
+        <h3 > Existing methods</h3>
+        </div>
+        <p class="fragment fade-in-then-semi-out" data-fragment-index="1">tedious</p>
+        <p class="fragment fade-in-then-semi-out" data-fragment-index="2">expensive</p>
+        <p class="fragment fade-in-then-semi-out" data-fragment-index="3">uninterpretable</p>
+        <p class="fragment fade-in-then-semi-out" data-fragment-index="4">ambiguous</p>
+    </div>
+    <div style="flex: 1; min-width: 0;">
+    <div style="height: 100px">
+        <img src="img/phitoshop_logo.jpeg" style="height: 100%; object-fit: contain; width: 100%;">
+        </div>
+        <p class="fragment fade-in-then-semi-out" data-fragment-index="1">
+        intuitive
+        </p>
+        <p class="fragment fade-in-then-semi-out" data-fragment-index="2">
+        efficient
+        </p>
+        <p class="fragment fade-in-then-semi-out" data-fragment-index="3">
+        interpretable by design
+        </p>
+        <p class="fragment fade-in-then-semi-out" data-fragment-index="4">
+        precise
+        </p>
+    </div>
+</div>
+
 
 
 ## interface
@@ -76,12 +116,15 @@ direct manipulation
 interpretability interfaces
 
 
+
 ## algo
 $r(s) = \theta \cdot \phi(s)$
 targeted ...
 
 
+
 ## eval
+
 
 
 ## tasks / baselines
