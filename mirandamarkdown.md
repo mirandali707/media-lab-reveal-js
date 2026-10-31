@@ -21,16 +21,32 @@
 
 
 
-we want representational alignment
+<!-- # Existing work -->
+<!-- annotate personal robot image: what matters: stove is hot, keep knife away from person, butter goes on toast not plate... -->
+To get intelligent, autonomous robots to work safely alongside humans, we need robots to understand what we care about ("features"), which can often be hard to communicate
 
 
 
-# Existing work
-$r(s) = \theta \cdot \phi(s)$
+Existing methods are...
 
-existing modalities bad
-pref pairs: tedious
-demos, corrections: expensive
+<div style="display: flex; gap: 24px; width: 100%;">
+    <div class="r-stack" style="flex: 1; min-width: 0;">
+        <p class="fragment fade-in-then-out" data-fragment-index="1">preference pairs</p>
+        <p class="fragment fade-in-then-out" data-fragment-index="2">demonstrations</p>
+        <p class="fragment fade-in-then-out" data-fragment-index="3">corrections</p>
+    </div>
+    <div style="flex: 1; min-width: 0;">
+        <p class="fragment fade-in-then-semi-out" data-fragment-index="1">
+        tedious
+        </p>
+        <p class="fragment fade-in-then-semi-out" data-fragment-index="2">
+        expensive
+        </p>
+        <p class="fragment fade-in-then-semi-out" data-fragment-index="3">
+        uninterpretable
+        </p>
+    </div>
+</div>
 
 
 language as a solution
@@ -45,6 +61,7 @@ existing methods vs ($\phi$)toshop
 
 tedious -> intuitive
 expensive -> efficient
+uninterpretable -> interpretable by design
 ambiguous -> precise
 <p class="fragment fade-in-then-semi-out">
 fragement
@@ -60,6 +77,7 @@ interpretability interfaces
 
 
 ## algo
+$r(s) = \theta \cdot \phi(s)$
 targeted ...
 
 
