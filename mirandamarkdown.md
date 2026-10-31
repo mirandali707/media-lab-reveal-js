@@ -133,21 +133,36 @@ efficiency
 
 
 
-## eval
-
-
-
 ## tasks / baselines
+gridrobot
+vehicle parking
+swimmer letters (if time)
+
+
+
+## eval
+Algorithm: 
+
+* reaction: oracle annotations move feature towards ground truth values
+* isolation: oracle annotations do not affect elems of state irrelevant to feature
+* efficiency: ms taken to update
+
+Interface:
+
+* NASA TLX: task load index
+* effort: clicks, keystrokes, time taken
+* perceived control and usefulness
+* task success: scored against task-specific rubric
 
 
 
 # goal
 representational alignment as craft
 end-user robot programming
+(same image as title slide)
 
 
-
-# thanks for listening
+# Thank you!
 Advisor: Cynthia Breazeal
 
 Thesis readers: Arvind Satyanarayan, Andreea Bobu, Crystal Lee
