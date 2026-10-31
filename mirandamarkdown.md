@@ -111,15 +111,25 @@ and the algorithm to make this possible.
 
 
 
-## interface
+## 1. The interface
 direct manipulation
 interpretability interfaces
+<div class="r-stack">
+    <p class="fragment fade-in-then-out">
+        <img src="img/phitoshop_mockup.jpeg" style="height: 400px; object-fit: contain; width: 100%;">
+    </p>
+    <p class="fragment fade-in-then-out">
+        <img src="img/phitoshop_mockup2.jpeg" style="height: 400px; object-fit: contain; width: 100%;">
+    </p>
+</div>
 
 
 
-## algo
+## 2. The algorithm
 $r(s) = \theta \cdot \phi(s)$
-targeted ...
+reaction
+isolation
+efficiency
 
 
 
@@ -146,3 +156,5 @@ Thesis readers: Arvind Satyanarayan, Andreea Bobu, Crystal Lee
 
 # appendix
 timeline
+phitoshop sketches
+tool descriptions
