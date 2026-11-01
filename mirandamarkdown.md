@@ -122,7 +122,9 @@ Existing methods are...
 
 
 
-## evaluating the interface
+## Interface
+<img src="img/phitoshop_interface.png" style="height: 400px; object-fit: contain; width: 100%;">
+
 <!-- direct manipulation
 interpretability interfaces -->
 * NASA TLX: task load index
@@ -132,10 +134,8 @@ interpretability interfaces -->
 
 
 
-## evaluating the algorithm
-$r(s) = \theta \cdot \phi(s)$
-
-$$f(\phi_i, A) = \phi_i'$$
+## Algorithm
+<img src="img/phitoshop_algo.png" style="height: 400px; object-fit: contain; width: 100%;">
 
 * reaction: oracle annotations move feature towards ground truth values
 * isolation: oracle annotations do not affect elems of state irrelevant to feature
@@ -143,7 +143,7 @@ $$f(\phi_i, A) = \phi_i'$$
 
 
 
-## tasks / baselines
+## Tasks
 gridrobot
 vehicle parking
 swimmer letters (if time)
@@ -192,7 +192,7 @@ end-user robot programming
 
 
 
-# appendix
+# Appendix
 timeline
 phitoshop sketches
 tool descriptions
