@@ -1,6 +1,11 @@
 # ($\phi$)toshop: *human-robot alignment as craft*
 *Miranda Li*
 <!-- TODO design this slide! maybe make a collage? -->
+Advisor: Cynthia Breazeal
+<!-- at prg we are ... -->
+
+Thesis readers: Arvind Satyanarayan, Andreea Bobu, Crystal Lee
+<!-- arvind does ..., andreea does ..., crystal does ... -->
 
 
 
@@ -32,8 +37,9 @@ Existing methods are...
 <div style="display: flex; gap: 24px; width: 100%;">
     <div class="r-stack" style="flex: 1; min-width: 0;">
         <p class="fragment fade-in-then-out" data-fragment-index="1">preference pairs</p>
-        <p class="fragment fade-in-then-out" data-fragment-index="2">demonstrations</p>
-        <p class="fragment fade-in-then-out" data-fragment-index="3">corrections</p>
+        <p class="fragment fade-in-then-out" data-fragment-index="2">demonstrations + corrections</p>
+        <p class="fragment fade-in-then-out" data-fragment-index="3">language</p>
+        <!-- <p class="fragment fade-in-then-out" data-fragment-index="3">NNs in general</p> -->
     </div>
     <div style="flex: 1; min-width: 0;">
         <p class="fragment fade-in-then-semi-out" data-fragment-index="1">
@@ -43,24 +49,21 @@ Existing methods are...
         expensive
         </p>
         <p class="fragment fade-in-then-semi-out" data-fragment-index="3">
-        uninterpretable
+        ambiguous
         </p>
+        <!-- <p class="fragment fade-in-then-semi-out" data-fragment-index="3">
+        uninterpretable
+        </p> -->
     </div>
 </div>
-
-
-
-Maybe LLMs / VLMs are the answer?
-
+<!-- Maybe LLMs / VLMs are the answer?
 <div class="fragment fade-in-then-semi-out" data-fragment-index="1">
-    "the sharper the utensil the further away from the person it should be"
-    <img src="img/vlm_human.png" style="display: block; height: auto; width: 100%; max-width: 100%; max-height: none; margin: 0;">
-</div>
-
+How close is "too close"?
+</div> -->
+<!-- 
 <p class="fragment fade-in-then-semi-out" data-fragment-index="2">
-Language is too ambiguous to capture specific spatial relationships.
-</p>
-
+Language is too ambiguous for specific spatial relationships, and LLMs encode strong priors.
+</p> -->
 
 
 
@@ -68,15 +71,45 @@ Language is too ambiguous to capture specific spatial relationships.
 <section data-auto-animate>
     <img src="img/phitoshop_logo.jpeg" style="height: 300px; object-fit: contain; width: 100%;">
     <!-- <h1>($\phi$)toshop</h1> -->
-
-An interactive visual interface 
-
+<!-- 
+an interactive visual interface 
 which makes the robot's representation directly manipulable 
-
 via visual annotation,
-
-and the algorithm to make this possible.
+and the algorithm to make this possible. -->
+<div class="r-stack">
+    <p class="fragment fade-in-then-out">
+        <img src="img/phitoshop_mockup.jpeg" style="height: 400px; object-fit: contain; width: 100%;">
+    </p>
+    <p class="fragment fade-in-then-out">
+        <img src="img/phitoshop_mockup2.jpeg" style="height: 400px; object-fit: contain; width: 100%;">
+    </p>
+</div>
 </section>
+
+
+
+## evaluating the interface
+<!-- direct manipulation
+interpretability interfaces -->
+* NASA TLX: task load index
+* effort: clicks, keystrokes, time taken
+* perceived control and usefulness
+* task success: scored against task-specific rubric
+
+
+
+## evaluating the algorithm
+$r(s) = \theta \cdot \phi(s)$
+* reaction: oracle annotations move feature towards ground truth values
+* isolation: oracle annotations do not affect elems of state irrelevant to feature
+* efficiency: ms taken to update
+
+
+
+## tasks / baselines
+gridrobot
+vehicle parking
+swimmer letters (if time)
 
 
 
@@ -87,8 +120,8 @@ and the algorithm to make this possible.
         </div>
         <p class="fragment fade-in-then-semi-out" data-fragment-index="1">tedious</p>
         <p class="fragment fade-in-then-semi-out" data-fragment-index="2">expensive</p>
-        <p class="fragment fade-in-then-semi-out" data-fragment-index="3">uninterpretable</p>
-        <p class="fragment fade-in-then-semi-out" data-fragment-index="4">ambiguous</p>
+        <p class="fragment fade-in-then-semi-out" data-fragment-index="3">ambiguous</p>
+        <!-- <p class="fragment fade-in-then-semi-out" data-fragment-index="4">uninterpretable</p> -->
     </div>
     <div style="flex: 1; min-width: 0;">
     <div style="height: 100px">
@@ -101,58 +134,13 @@ and the algorithm to make this possible.
         efficient
         </p>
         <p class="fragment fade-in-then-semi-out" data-fragment-index="3">
-        interpretable by design
-        </p>
-        <p class="fragment fade-in-then-semi-out" data-fragment-index="4">
         precise
         </p>
+        <!-- <p class="fragment fade-in-then-semi-out" data-fragment-index="4">
+        interpretable by design
+        </p> -->
     </div>
 </div>
-
-
-
-## 1. The interface
-direct manipulation
-interpretability interfaces
-<div class="r-stack">
-    <p class="fragment fade-in-then-out">
-        <img src="img/phitoshop_mockup.jpeg" style="height: 400px; object-fit: contain; width: 100%;">
-    </p>
-    <p class="fragment fade-in-then-out">
-        <img src="img/phitoshop_mockup2.jpeg" style="height: 400px; object-fit: contain; width: 100%;">
-    </p>
-</div>
-
-
-
-## 2. The algorithm
-$r(s) = \theta \cdot \phi(s)$
-reaction
-isolation
-efficiency
-
-
-
-## tasks / baselines
-gridrobot
-vehicle parking
-swimmer letters (if time)
-
-
-
-## eval
-Algorithm: 
-
-* reaction: oracle annotations move feature towards ground truth values
-* isolation: oracle annotations do not affect elems of state irrelevant to feature
-* efficiency: ms taken to update
-
-Interface:
-
-* NASA TLX: task load index
-* effort: clicks, keystrokes, time taken
-* perceived control and usefulness
-* task success: scored against task-specific rubric
 
 
 
@@ -162,10 +150,8 @@ end-user robot programming
 (same image as title slide)
 
 
-# Thank you!
-Advisor: Cynthia Breazeal
 
-Thesis readers: Arvind Satyanarayan, Andreea Bobu, Crystal Lee
+# Thank you!
 
 
 
