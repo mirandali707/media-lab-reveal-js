@@ -27,9 +27,10 @@ Thesis readers: Arvind Satyanarayan, Andreea Bobu, Crystal Lee
 
 
 <!-- # Existing work -->
-reveal meme robots -> math with legs
+<img src="img/robot_is_math.jpg" style="height: auto; width: 500px; max-width: 100%; max-height: 100%; margin: 0;">
+<!-- reveal meme robots -> math with legs
 there's nothing magical about robots. they are just math with legs.
-To get intelligent, autonomous robots to work safely alongside humans, we need to specify what we care about in math.
+To get intelligent, autonomous robots to work safely alongside humans, we need to specify what we care about in math. -->
 <!-- we need robots to understand what we care about ("features"), which can often be hard to communicate -->
 
 
