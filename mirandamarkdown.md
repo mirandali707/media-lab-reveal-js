@@ -87,7 +87,6 @@ Existing methods are...
             </p>
             <img src="img/cokecan_taylorswift.png" style="display: block; height: auto; width: 100%; max-width: 100%; max-height: none; margin: 0;">
         </div>
-        <!-- <p class="fragment fade-in-then-out" data-fragment-index="3">NNs in general</p> -->
     </div>
     <div style="flex: 1; min-width: 0;">
         <p class="fragment fade-in-then-semi-out" data-fragment-index="1">
@@ -99,19 +98,8 @@ Existing methods are...
         <p class="fragment fade-in-then-semi-out" data-fragment-index="3">
         ambiguous
         </p>
-        <!-- <p class="fragment fade-in-then-semi-out" data-fragment-index="3">
-        uninterpretable
-        </p> -->
     </div>
 </div>
-<!-- Maybe LLMs / VLMs are the answer?
-<div class="fragment fade-in-then-semi-out" data-fragment-index="1">
-How close is "too close"?
-</div> -->
-<!-- 
-<p class="fragment fade-in-then-semi-out" data-fragment-index="2">
-Language is too ambiguous for specific spatial relationships, and LLMs encode strong priors.
-</p> -->
 
 
 
