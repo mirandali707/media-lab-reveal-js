@@ -144,9 +144,20 @@ interpretability interfaces -->
 
 
 ## Tasks
-gridrobot
-vehicle parking
-swimmer letters (if time)
+<div style="display: flex; gap: 24px; width: 100%;">
+    <p class="fragment fade-in-then-semi-out" style="flex: 1; min-width: 0;">
+        2D navigation
+        <img src="img/gridrobot.png" style="height: 200px; object-fit: contain; width: 100%;">
+    </p>
+    <p class="fragment fade-in-then-semi-out" style="flex: 1; min-width: 0;">
+        Vehicle parking
+        <img src="img/vehicleparking.png" style="height: 200px; object-fit: contain; width: 100%;">
+    </p>
+    <p class="fragment fade-in-then-semi-out" style="flex: 1; min-width: 0;">
+        Swimmer (stretch)
+        <img src="img/swimmer.png" style="height: 200px; object-fit: contain; width: 100%;">
+    </p>
+</div>
 
 
 
