@@ -60,9 +60,24 @@ Existing methods are...
 
 <div style="display: flex; gap: 24px; width: 100%;">
     <div class="r-stack" style="flex: 1; min-width: 0;">
-        <p class="fragment fade-in-then-out" data-fragment-index="1">preference pairs</p>
-        <p class="fragment fade-in-then-out" data-fragment-index="2">demonstrations + corrections</p>
-        <p class="fragment fade-in-then-out" data-fragment-index="3">language</p>
+        <div class="fragment fade-in-then-out" data-fragment-index="1">
+            <p>
+            labelled preference pairs
+            </p>
+            <img src="img/farpls_prefpairs.jpg" style="display: block; height: auto; width: 100%; max-width: 100%; max-height: none; margin: 0;">
+        </div>
+        <div class="fragment fade-in-then-out" data-fragment-index="2">
+            <p>
+            demonstrations + corrections
+            </p>
+            <img src="img/demos_corrections.png" style="display: block; height: auto; width: 100%; max-width: 100%; max-height: none; margin: 0;">
+        </div>
+        <div class="fragment fade-in-then-out" data-fragment-index="3">
+            <p>
+            language
+            </p>
+            <img src="img/cokecan_taylorswift.png" style="display: block; height: auto; width: 100%; max-width: 100%; max-height: none; margin: 0;">
+        </div>
         <!-- <p class="fragment fade-in-then-out" data-fragment-index="3">NNs in general</p> -->
     </div>
     <div style="flex: 1; min-width: 0;">
