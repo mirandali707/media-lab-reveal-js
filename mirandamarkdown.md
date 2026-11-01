@@ -32,6 +32,26 @@ To get intelligent, autonomous robots to work safely alongside humans, we need r
 
 
 
+<!-- math slide -->
+<!-- .slide: data-auto-animate -->
+<h1>Auto-Animate</h1>
+
+
+<!-- .slide: data-auto-animate -->
+<h1 style="margin-top: 100px; color: red;">Auto-Animate</h1>
+
+
+$r(s)$: reward function
+
+$\phi(s)$: reward function
+
+$r(s) = \theta \cdot \phi(s)$
+<!-- Algorithmic human-robot interaction models human preferences as a reward function over the state, r(s). The robot chooses its actions to maximize expected reward. 
+Rather than learning this reward directly from the raw state s, the robot can first learn features phi(s) that capture what the human cares about (e.g., distance to the person, efficiency), and then learn a reward over those features, often as a weighted sum,
+theta dot phi(s). -->
+
+
+
 Existing methods are...
 
 <div style="display: flex; gap: 24px; width: 100%;">
