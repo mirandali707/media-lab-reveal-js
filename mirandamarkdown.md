@@ -103,10 +103,15 @@ Existing methods are...
 
 
 
-<!-- # ($\phi$)toshop -->
-<img src="img/phitoshop_logo.jpeg" style="height: 300px; object-fit: contain; width: 100%;">
+<!-- .slide: data-auto-animate data-background-color="black" data-transition="zoom"-->
+<h1>($\phi$)toshop</h1>
+<img src="img/phitoshop_logo.png" style="height: 300px">
 
 
+
+<!-- .slide: data-auto-animate -->
+<img src="img/phitoshop_logo.png" style="height: 100px">
+Workflow
 
 <div class="r-stack">
     <p>
@@ -173,7 +178,7 @@ interpretability interfaces -->
     </div>
     <div style="flex: 1; min-width: 0;">
     <div style="height: 100px">
-        <img src="img/phitoshop_logo.jpeg" style="height: 100%; object-fit: contain; width: 100%;">
+        <img src="img/phitoshop_logo.png" style="height: 100%; object-fit: contain; width: 100%;">
         </div>
         <p class="fragment fade-in-then-semi-out" data-fragment-index="1">
         intuitive
