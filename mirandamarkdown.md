@@ -35,25 +35,33 @@ To get intelligent, autonomous robots to work safely alongside humans, we need t
 
 
 
-<!-- We want to learn / specify: -->
-<!-- animate + annotate personal robot image: what matters: stove is hot, keep knife away from person, butter goes on toast not plate... -->
-
-$r(s)$: reward function ("how good is this state?")
-<!-- as a person, how good is this state? great - toast being buttered, dish being washed, egg cooking successfully-->
-
-$\phi(s)$: features ("what is important about this state?")
-<!-- NOT important that the toaster is on the cutting board, sponge to the right of the plate-->
-<!-- what is important:  we need the robot to know that
-the stove is hot,
-keep knife away from person,
-butter goes on the toast, not on the plate in the sink-->
-
-We often assume:
-
-$r(s) = \theta \cdot \phi(s)$ ("how good this state is depends linearly on its features")
-<!-- Algorithmic human-robot interaction models human preferences as a reward function over the state, r(s). The robot chooses its actions to maximize expected reward. 
-Rather than learning this reward directly from the raw state s, the robot can first learn features phi(s) that capture what the human cares about (e.g., distance to the person, efficiency), and then learn a reward over those features, often as a weighted sum,
-theta dot phi(s). -->
+<div style="display: flex; gap: 24px; width: 100%;">
+    <div class="r-stack" style="flex: 1; min-width: 0;">
+        <div >
+            <img src="img/personalrobot_features_1.png" style="height: auto; width: 500px; max-width: 100%; max-height: 100%; margin: 0;">
+        </div>
+        <div class="fragment fade-in-then-out" data-fragment-index="3">
+            <img src="img/personalrobot_features_2.png" style="height: auto; width: 500px; max-width: 100%; max-height: 100%; margin: 0;">
+        </div>
+        <div class="fragment fade-in" data-fragment-index="4">
+            <img src="img/personalrobot_features_3.png" style="height: auto; width: 500px; max-width: 100%; max-height: 100%; margin: 0;">
+        </div>
+    </div>
+    <div style="flex: 1; min-width: 0;">
+        <p class="fragment fade-in-then-semi-out" data-fragment-index="1">
+            $r(s)$: reward function ("how good is this state?")
+        </p>
+        <p class="fragment fade-in-then-semi-out" data-fragment-index="2">
+            $\phi(s)$: features ("what is important about this state?")
+        </p>
+        <p class="fragment fade-in-then-semi-out" data-fragment-index="5">
+            We assume $r(s) = \theta \cdot \phi(s)$.
+        </p>
+        <p class="fragment fade-in-then-semi-out" data-fragment-index="6">
+            We want to teach the robot the features $\phi(s)$ we care about.
+        </p>
+    </div>
+</div>
 
 
 
@@ -128,24 +136,21 @@ and the algorithm to make this possible. -->
 
 
 
-but what about $r(s) = \theta \cdot \phi(s)$?
-
-overlaying layers with different opacities
-
-
-
 ## evaluating the interface
 <!-- direct manipulation
 interpretability interfaces -->
 * NASA TLX: task load index
 * effort: clicks, keystrokes, time taken
 * perceived control and usefulness
-* task success: scored against task-specific rubric
+<!-- * task success: scored against task-specific rubric -->
 
 
 
 ## evaluating the algorithm
 $r(s) = \theta \cdot \phi(s)$
+
+$$f(\phi_i, A) = \phi_i'$$
+
 * reaction: oracle annotations move feature towards ground truth values
 * isolation: oracle annotations do not affect elems of state irrelevant to feature
 * efficiency: ms taken to update
