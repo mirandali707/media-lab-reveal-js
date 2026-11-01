@@ -104,23 +104,21 @@ Existing methods are...
 
 
 <!-- # ($\phi$)toshop -->
-<section data-auto-animate>
-    <img src="img/phitoshop_logo.jpeg" style="height: 300px; object-fit: contain; width: 100%;">
-    <!-- <h1>($\phi$)toshop</h1> -->
-<!-- 
-an interactive visual interface 
-which makes the robot's representation directly manipulable 
-via visual annotation,
-and the algorithm to make this possible. -->
+<img src="img/phitoshop_logo.jpeg" style="height: 300px; object-fit: contain; width: 100%;">
+
+
+
 <div class="r-stack">
-    <p class="fragment fade-in-then-out">
-        <img src="img/phitoshop_mockup.jpeg" style="height: 400px; object-fit: contain; width: 100%;">
+    <p>
+        <img src="img/phis_workflow_1.png" style="height: 400px; object-fit: contain; width: 100%;">
     </p>
     <p class="fragment fade-in-then-out">
-        <img src="img/phitoshop_mockup2.jpeg" style="height: 400px; object-fit: contain; width: 100%;">
+        <img src="img/phis_workflow_2.png" style="height: 400px; object-fit: contain; width: 100%;">
+    </p>
+    <p class="fragment fade-in-then-out">
+        <img src="img/phis_workflow_3.png" style="height: 400px; object-fit: contain; width: 100%;">
     </p>
 </div>
-</section>
 
 
 
