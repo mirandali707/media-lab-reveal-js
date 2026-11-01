@@ -27,25 +27,29 @@ Thesis readers: Arvind Satyanarayan, Andreea Bobu, Crystal Lee
 
 
 <!-- # Existing work -->
-<!-- annotate personal robot image: what matters: stove is hot, keep knife away from person, butter goes on toast not plate... -->
-To get intelligent, autonomous robots to work safely alongside humans, we need robots to understand what we care about ("features"), which can often be hard to communicate
+reveal meme robots -> math with legs
+there's nothing magical about robots. they are just math with legs.
+To get intelligent, autonomous robots to work safely alongside humans, we need to specify what we care about in math.
+<!-- we need robots to understand what we care about ("features"), which can often be hard to communicate -->
 
 
 
-<!-- math slide -->
-<!-- .slide: data-auto-animate -->
-<h1>Auto-Animate</h1>
+<!-- We want to learn / specify: -->
+<!-- animate + annotate personal robot image: what matters: stove is hot, keep knife away from person, butter goes on toast not plate... -->
 
+$r(s)$: reward function ("how good is this state?")
+<!-- as a person, how good is this state? great - toast being buttered, dish being washed, egg cooking successfully-->
 
-<!-- .slide: data-auto-animate -->
-<h1 style="margin-top: 100px; color: red;">Auto-Animate</h1>
+$\phi(s)$: features ("what is important about this state?")
+<!-- NOT important that the toaster is on the cutting board, sponge to the right of the plate-->
+<!-- what is important:  we need the robot to know that
+the stove is hot,
+keep knife away from person,
+butter goes on the toast, not on the plate in the sink-->
 
+We often assume:
 
-$r(s)$: reward function
-
-$\phi(s)$: reward function
-
-$r(s) = \theta \cdot \phi(s)$
+$r(s) = \theta \cdot \phi(s)$ ("how good this state is depends linearly on its features")
 <!-- Algorithmic human-robot interaction models human preferences as a reward function over the state, r(s). The robot chooses its actions to maximize expected reward. 
 Rather than learning this reward directly from the raw state s, the robot can first learn features phi(s) that capture what the human cares about (e.g., distance to the person, efficiency), and then learn a reward over those features, often as a weighted sum,
 theta dot phi(s). -->
@@ -105,6 +109,12 @@ and the algorithm to make this possible. -->
     </p>
 </div>
 </section>
+
+
+
+but what about $r(s) = \theta \cdot \phi(s)$?
+
+overlaying layers with different opacities
 
 
 
