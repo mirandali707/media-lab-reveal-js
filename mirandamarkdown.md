@@ -225,21 +225,46 @@ Existing methods **cast the human as** a...
 Workflow
 
 <div class="r-stack">
-    <p class="fragment fade-in-then-out">
+    <p class="fragment fade-in-then-out" data-fragment-index="1">
         <img src="img/phis_workflow_0.png" style="height: 400px; object-fit: contain; width: 100%;">
     </p>
-    <p class="fragment fade-in-then-out">
+    <p class="fragment fade-in-then-out" data-fragment-index="2">
         <img src="img/phis_workflow_1.png" style="height: 400px; object-fit: contain; width: 100%;">
     </p>
-    <p class="fragment fade-in-then-out">
+    <p class="fragment fade-in-then-out" data-fragment-index="3">
+        <img src="img/phis_workflow_select.png" style="height: 400px; object-fit: contain; width: 100%;">
+    </p>
+    <p class="fragment fade-in-then-out" data-fragment-index="4">
         <img src="img/phis_workflow_2.png" style="height: 400px; object-fit: contain; width: 100%;">
     </p>
-    <p class="fragment fade-in-then-semi-out">
+    <p class="fragment fade-in-then-semi-out" data-fragment-index="5">
         <img src="img/phis_workflow_3.png" style="height: 400px; object-fit: contain; width: 100%;">
     </p>
-    <p class="fragment fade-in">
+    <p class="fragment fade-in" data-fragment-index="6">
         <img src="img/happy_harold_paintbrush.png" style="height: 400px; object-fit: contain; width: 100%;">
     </p>
+</div>
+<div class="r-stack">
+    <p class="fragment fade-in-then-out" data-fragment-index="1">
+        Editing a single feature $\phi_i$: spoon distance
+    </p>
+    <p class="fragment fade-in-then-out" data-fragment-index="2">
+        Visualize robot's current feature network $\phi_i$ for all states
+        </br>
+        (orange = high value, purple = low value)
+    </p>
+    <p class="fragment fade-in-then-out" data-fragment-index="3">
+        User selects annotation tool
+    </p>
+    <p class="fragment fade-in-then-out" data-fragment-index="4">
+        User makes annotations $A$
+    </p>
+    <p class="fragment fade-in-then-out" data-fragment-index="5">
+    	Algorithm $f(\phi_i, A)$ updates previous feature network $\phi_i$ to $\phi_i'$ according to annotations
+    </p>
+    <!-- <p class="fragment fade-in-then-out" data-fragment-index="6">
+       hello 
+    </p> -->
 </div>
 
 
