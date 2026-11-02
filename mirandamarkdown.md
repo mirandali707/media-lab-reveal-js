@@ -121,7 +121,7 @@ Existing methods are...
 
 
 
-Existing methods ~are~ cast the human as a...
+Existing methods **cast the human as** a...
 
 <div style="display: flex; gap: 24px; width: 100%;">
     <div class="r-stack" style="flex: 1; min-width: 0;">
@@ -185,13 +185,13 @@ Existing methods ~are~ cast the human as a...
 Workflow
 
 <div class="r-stack">
-    <p>
+    <p class="fragment fade-in-then-out">
         <img src="img/phis_workflow_1.png" style="height: 400px; object-fit: contain; width: 100%;">
     </p>
     <p class="fragment fade-in-then-out">
         <img src="img/phis_workflow_2.png" style="height: 400px; object-fit: contain; width: 100%;">
     </p>
-    <p class="fragment fade-in">
+    <p class="fragment fade-in-then-semi-out">
         <img src="img/phis_workflow_3.png" style="height: 400px; object-fit: contain; width: 100%;">
     </p>
     <p class="fragment fade-in">
