@@ -68,17 +68,20 @@ To get intelligent, autonomous robots to work safely alongside humans, we need t
         <p class="fragment fade-in-then-semi-out" data-fragment-index="1">
             $r(s)$: reward function ("how good is this state?")
         </p>
-        <p class="fragment fade-in-out" data-fragment-index="2">
-            $\phi(s)$: <span style="color: green;">features</span> ("what is important about this state?")
+        <p class="fragment fade-in-then-semi-out" data-fragment-index="2">
+            <span style="color: green;">$\phi(s)$</span>: <span style="color: green;">features</span> ("what is important about this state?")
         </p>
         <p class="fragment fade-in-then-semi-out" data-fragment-index="5">
-            We assume $r(s) = \theta \cdot \phi(s)$.
+            We assume $r(s) = \theta \cdot$<span style="color: green;">$\phi(s)$</span>.
         </p>
         <p class="fragment fade-in-then-semi-out" data-fragment-index="6">
             Learning <span style="color: green;">features</span>, then combining them into rewards, is more efficient and generalizable than learning rewards from the state directly.
+            <small style="display: block; margin-top: 0.75em; font-size: 0.45em; color: #666;">
+            Bobu, A., Wiggert, M., Tomlin, C., & Dragan, A. D. (2022). Inducing structure in reward learning by learning features. The International Journal of Robotics Research, 41(5), 497-518.
+            </small>
         </p>
-        <p class="fragment fade-in-then-semi-out" data-fragment-index="7">
-            How do we teach the robot the <span style="color: green;">features</span> $\phi(s)$ we care about?
+        <p style="padding-top:30px" class="fragment fade-in-then-semi-out" data-fragment-index="7">
+            How do we teach the robot the <span style="color: green;">features $\phi(s)$</span> we care about?
         </p>
     </div>
 </div>
