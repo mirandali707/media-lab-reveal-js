@@ -58,10 +58,10 @@ To get intelligent, autonomous robots to work safely alongside humans, we need t
         <div >
             <img src="img/personalrobot_features_1.png" style="height: auto; width: 500px; max-width: 100%; max-height: 100%; margin: 0;">
         </div>
-        <div class="fragment fade-in-then-out" data-fragment-index="3">
+        <div class="fragment fade-in-then-out" data-fragment-index="4">
             <img src="img/personalrobot_features_2.png" style="height: auto; width: 500px; max-width: 100%; max-height: 100%; margin: 0;">
         </div>
-        <div class="fragment fade-in" data-fragment-index="4">
+        <div class="fragment fade-in" data-fragment-index="5">
             <img src="img/personalrobot_features_3.png" style="height: auto; width: 500px; max-width: 100%; max-height: 100%; margin: 0;">
         </div>
     </div>
@@ -70,16 +70,16 @@ To get intelligent, autonomous robots to work safely alongside humans, we need t
             $r(s)$: reward function ("how good is this state?")
         </p>
         <p class="fragment fade-in-then-semi-out" data-fragment-index="2">
-            <span style="color: green;">$\phi(s)$</span>: <span style="color: green;">features</span> ("what is important about this state?")
-        </p>
-        <p class="fragment fade-in-then-semi-out" data-fragment-index="5">
-            We assume $r(s) = \theta \cdot$<span style="color: green;">$\phi(s)$</span>.
-        </p>
-        <p class="fragment fade-in-then-semi-out" data-fragment-index="6">
             Learning <span style="color: green;">features</span>, then combining them into rewards, is more efficient and generalizable than learning rewards from the state directly.
             <small style="display: block; margin-top: 0.75em; font-size: 0.45em; color: #666;">
             Bobu, A., Wiggert, M., Tomlin, C., & Dragan, A. D. (2022). Inducing structure in reward learning by learning features. The International Journal of Robotics Research, 41(5), 497-518.
             </small>
+        </p>
+        <p class="fragment fade-in-then-semi-out" data-fragment-index="3">
+            <span style="color: green;">$\phi(s)$</span>: <span style="color: green;">features</span> ("what is important about this state?")
+        </p>
+        <p class="fragment fade-in-then-semi-out" data-fragment-index="6">
+            We assume $r(s) = \theta \cdot$<span style="color: green;">$\phi(s)$</span>.
         </p>
         <p style="padding-top:30px" class="fragment fade-in-then-semi-out" data-fragment-index="7">
             How do we teach the robot the <span style="color: green;">features $\phi(s)$</span> we care about?
