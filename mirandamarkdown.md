@@ -458,3 +458,8 @@ Who is the human, in <strong>human</strong>-robot interaction?
 
 
 <img src="img/phitoshop_2.png" style="flex: 1; min-width: 0; height: 400px; object-fit: contain; margin: 0;">
+
+
+"generally, the sharper the utensil the further away from the person it should be. Spoons and spatulas are roughly equal in sharpness."
+
+<img src="img/vlm_human.png" style="flex: 1; min-width: 0; height: 400px; object-fit: contain; margin: 0;">
