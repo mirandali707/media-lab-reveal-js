@@ -352,9 +352,9 @@ Hart, S. G., & Staveland, L. E. (1988). Development of NASA-TLX (Task Load Index
 ## Algorithm: evaluation
 <img src="img/phitoshop_algo.png" style="height: 240px">
 
-* Reaction: annotations move feature towards ground truth values
-* Isolation: annotations do not affect irrelevant dimensions of state
-* Efficiency: update duration
+* Reaction: annotations move feature towards ground truth values <!-- .element: class="fragment fade-in" -->
+* Isolation: annotations do not affect irrelevant dimensions of state <!-- .element: class="fragment fade-in" -->
+* Efficiency: update duration <!-- .element: class="fragment fade-in" -->
 
 
 
