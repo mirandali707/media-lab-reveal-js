@@ -269,24 +269,75 @@ Workflow
 
 
 
+## Interface: tools
+<div style="display: flex; gap: 24px; width: 100%;">
+    <p class="fragment fade-in-then-semi-out" style="flex: 1; min-width: 0;">
+        Paintbrush
+        <img src="img/annotation.png" style="height: 200px; object-fit: contain; width: 100%;">
+    </p>
+    <p class="fragment fade-in-then-semi-out" style="flex: 1; min-width: 0;">
+        Monotonic lines
+        <img src="img/ferl.png" style="height: 200px; object-fit: contain; width: 100%;">
+        <small style="display: block; margin-top: 0.75em; font-size: 0.45em; color: #666;">
+        Bobu, A., Wiggert, M., Tomlin, C., & Dragan, A. D. (2022). Inducing structure in reward learning by learning features. The International Journal of Robotics Research, 41(5), 497-518.
+        </small>
+    </p>
+    <p class="fragment fade-in-then-semi-out" style="flex: 1; min-width: 0;">
+        Language (chat)
+        <img src="img/flex.png" style="height: 200px; object-fit: contain; width: 100%;">
+        <small style="display: block; margin-top: 0.75em; font-size: 0.45em; color: #666;">
+        Lee, A., Dennler, N., Sucholutsky, I., & Bobu, A. (2026). Flexible Language-Guided Representation Editing for Adaptive Robot Behavior. arXiv preprint arXiv:2610.28893.
+        </small>
+    </p>
+</div>
+
+
+
 ## Interface
-<img src="img/phitoshop_interface.png" style="height: 400px; object-fit: contain; width: 100%;">
+<img src="img/phis_workflow_2.png" style="height: 400px; object-fit: contain; width: 100%;">
+
+* Direct manipulation
+<small style="font-size: 0.45em; color: #666;width:400px">
+Hutchins, E. L., Hollan, J. D., & Norman, D. A. (1986). Direct manipulation interfaces. In User centered system design (pp. 87-124). CRC Press.
+</small>
+
+* Interpretability interfaces
+<small style="font-size: 0.45em; color: #666;width:400px">
+Boggust, A., Bang, H., Strobelt, H., & Satyanarayan, A. (2025, April). Abstraction alignment: comparing model-learned and human-encoded conceptual relationships. In Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems (pp. 1-20).
+</small>
+<!-- * End-user programming -->
+
+
+
+## Interface: evaluation
+<img src="img/phitoshop_interface.png" style="height: 250px; object-fit: contain; width: 100%;">
 
 <!-- direct manipulation
 interpretability interfaces -->
 * NASA TLX: task load index
-* effort: clicks, keystrokes, time taken
-* perceived control and usefulness
+<small style="font-size: 0.45em; color: #666; width:400px">
+Hart, S. G., & Staveland, L. E. (1988). Development of NASA-TLX (Task Load Index): Results of empirical and theoretical research. In Advances in psychology (Vol. 52, pp. 139-183). North-holland.
+</small>
+
+* Clicks, keystrokes, time taken
+* Perceived control and usefulness
 <!-- * task success: scored against task-specific rubric -->
 
 
 
+<!-- .slide: data-auto-animate -->
 ## Algorithm
-<img src="img/phitoshop_algo.png" style="height: 400px; object-fit: contain; width: 100%;">
+<img src="img/phitoshop_algo.png" style="height: 400px;">
 
-* reaction: oracle annotations move feature towards ground truth values
-* isolation: oracle annotations do not affect elems of state irrelevant to feature
-* efficiency: ms taken to update
+
+
+<!-- .slide: data-auto-animate -->
+## Algorithm: evaluation
+<img src="img/phitoshop_algo.png" style="height: 240px">
+
+* Reaction: annotations move feature towards ground truth values
+* Isolation: annotations do not affect irrelevant dimensions of state
+* Efficiency: update duration
 
 
 
