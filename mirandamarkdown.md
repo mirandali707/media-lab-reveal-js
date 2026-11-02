@@ -153,7 +153,8 @@ Existing methods **cast the human as** a...
 
 <div style="display: flex; gap: 24px; width: 100%;">
     <div class="r-stack" style="flex: 1; min-width: 0;">
-        <div class="fragment fade-in-then-out" data-fragment-index="1">
+        <div class="fragment fade-out" data-fragment-index="3">
+        <div class="fragment fade-in" data-fragment-index="1">
             <p>
             labelled preference pairs
             </p>
@@ -162,7 +163,9 @@ Existing methods **cast the human as** a...
             Lyu, H., Bai, Y., Liang, X., Das, U., Shi, C., Gong, L., ... & Ma, X. (2024, March). FARPLS: A feature-augmented robot trajectory preference labeling system to assist human labelers’ preference elicitation. In Proceedings of the 29th International Conference on Intelligent User Interfaces (pp. 344-369).
             </small>
         </div>
-        <div class="fragment fade-in-then-out" data-fragment-index="2">
+        </div>
+        <div class="fragment fade-out" data-fragment-index="5">
+        <div class="fragment fade-in" data-fragment-index="3">
             <p>
             demonstrations + corrections
             </p>
@@ -179,7 +182,8 @@ Existing methods **cast the human as** a...
             Bajcsy, A., Losey, D. P., O’malley, M. K., & Dragan, A. D. (2017, October). Learning robot objectives from physical human interaction. In Conference on robot learning (pp. 217-226). PMLR.
             </small>
         </div>
-        <div class="fragment fade-in-then-out" data-fragment-index="3">
+        </div>
+        <div class="fragment fade-in" data-fragment-index="5">
             <p>
             language
             </p>
@@ -190,19 +194,19 @@ Existing methods **cast the human as** a...
         </div>
     </div>
     <div style="flex: 1; min-width: 0; display: flex; flex-direction: column; justify-content: center;">
-        <div class="fragment fade-in-then-semi-out" data-fragment-index="1">
+        <div class="fragment fade-in-then-semi-out" data-fragment-index="2">
             <p>
             data labeller
             </p>
             <!-- <img src="img/faceplant.png" style="display: block; height: auto; width: 100%; max-width: 100%; max-height: none; margin: 0;"> -->
         </div>
-        <div class="fragment fade-in-then-semi-out" data-fragment-index="2">
+        <div class="fragment fade-in-then-semi-out" data-fragment-index="4">
             <p>
             data labeller but with more steps
             </p>
             <!-- <img src="img/faceplant_vr.png" style="display: block; height: auto; width: 100%; max-width: 100%; max-height: none; margin: 0;"> -->
         </div>
-        <div class="fragment fade-in-then-semi-out" data-fragment-index="3">
+        <div class="fragment fade-in-then-semi-out" data-fragment-index="6">
             <p>
             prompt engineer
             </p>
@@ -210,9 +214,13 @@ Existing methods **cast the human as** a...
         </div>
         <!-- images -->
         <div class="r-stack" style="flex: 1; min-width: 0;">
-            <img class="fragment fade-in-then-out" src="img/faceplant.png" style="display: block; height: auto; width: 200px;" data-fragment-index="1">
-            <img class="fragment fade-in-then-out" src="img/faceplant_vr.png" style="display: block; height: auto; width: 200px;" data-fragment-index="2">
-            <img class="fragment fade-in-then-out" src="img/faceplant.png" style="display: block; height: auto; width: 200px;" data-fragment-index="3">
+            <div class="fragment fade-out" data-fragment-index="4">
+                <img class="fragment fade-in" src="img/faceplant.png" style="display: block; height: auto; width: 200px;" data-fragment-index="2">
+            </div>
+            <div class="fragment fade-out" data-fragment-index="6">
+                <img class="fragment fade-in" src="img/faceplant_vr.png" style="display: block; height: auto; width: 200px;" data-fragment-index="4">
+            </div>
+            <img class="fragment fade-in" src="img/faceplant.png" style="display: block; height: auto; width: 200px;" data-fragment-index="6">
         </div>
     </div>
 </div>
@@ -387,21 +395,21 @@ Hart, S. G., & Staveland, L. E. (1988). Development of NASA-TLX (Task Load Index
         <strong> Existing methods</strong>
         </div>
         <p class="fragment fade-in-then-semi-out" data-fragment-index="1">tedious</p>
-        <p class="fragment fade-in-then-semi-out" data-fragment-index="2">expensive</p>
-        <p class="fragment fade-in-then-semi-out" data-fragment-index="3">ambiguous</p>
+        <p class="fragment fade-in-then-semi-out" data-fragment-index="3">expensive</p>
+        <p class="fragment fade-in-then-semi-out" data-fragment-index="5">ambiguous</p>
         <!-- <p class="fragment fade-in-then-semi-out" data-fragment-index="4">uninterpretable</p> -->
     </div>
     <div style="flex: 1; min-width: 0;display: flex; flex-direction: column; justify-content: center;">
     <div style="height: 100px; margin-bottom: 24px;">
         <img src="img/phitoshop_logo.png" style="height: 100%; object-fit: contain; width: 100%;">
         </div>
-        <p class="fragment fade-in-then-semi-out" data-fragment-index="1">
+        <p class="fragment fade-in-then-semi-out" data-fragment-index="2">
         intuitive
         </p>
-        <p class="fragment fade-in-then-semi-out" data-fragment-index="2">
+        <p class="fragment fade-in-then-semi-out" data-fragment-index="4">
         efficient
         </p>
-        <p class="fragment fade-in-then-semi-out" data-fragment-index="3">
+        <p class="fragment fade-in-then-semi-out" data-fragment-index="6">
         precise
         </p>
         <!-- <p class="fragment fade-in-then-semi-out" data-fragment-index="4">
@@ -416,13 +424,13 @@ Hart, S. G., & Staveland, L. E. (1988). Development of NASA-TLX (Task Load Index
 Who is the human, in <strong>human</strong>-robot interaction?
 
 <div style="display: flex; gap: 24px; width: 100%; align-items: center;">
-    <div class="fragment" style="flex: 1; min-width: 0;">
+    <div class="fragment" data-fragment-index="1" style="flex: 1; min-width: 0;">
         <img src="img/faceplant.png" style="height: 200px;">
     </div>
     <div style="flex: 1; min-width: 0;">
         <img src="img/personalrobot_human.png" style="height: 340px;">
     </div>
-    <div class="fragment" style="flex: 1; min-width: 0;">
+    <div class="fragment" data-fragment-index="1" style="flex: 1; min-width: 0;">
         <img src="img/happy_harold_paintbrush.png" style="height: 300px;">
     </div>
 </div>
