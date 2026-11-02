@@ -409,10 +409,18 @@ Hart, S. G., & Staveland, L. E. (1988). Development of NASA-TLX (Task Load Index
 
 
 <!-- .slide: data-auto-animate -->
+Who is the human, in <strong>human</strong>-robot interaction?
+
 <div style="display: flex; gap: 24px; width: 100%; align-items: center;">
-    <img src="img/faceplant.png" style="flex: 1; min-width: 0; height: 200px; object-fit: contain; margin: 0;" class="fragment">
-    <img src="img/personalrobot_human.png" style="flex: 1; min-width: 0; height: 600px; object-fit: contain; margin: 0;">
-    <img src="img/happy_harold_paintbrush.png" style="flex: 1; min-width: 0; height: 300px; object-fit: contain; margin: 0;" class="fragment">
+    <div class="fragment" style="flex: 1; min-width: 0;">
+        <img src="img/faceplant.png" style="height: 200px;">
+    </div>
+    <div style="flex: 1; min-width: 0;">
+        <img src="img/personalrobot_human.png" style="height: 340px;">
+    </div>
+    <div class="fragment" style="flex: 1; min-width: 0;">
+        <img src="img/happy_harold_paintbrush.png" style="height: 300px;">
+    </div>
 </div>
 
 
@@ -421,7 +429,9 @@ Hart, S. G., & Staveland, L. E. (1988). Development of NASA-TLX (Task Load Index
 # Thank you!
 <div style="display: flex; gap: 4px; width: 100%;">
 <!-- <img src="img/phitoshop_logo.png" style="flex: 1; min-width: 0; height: 400px; object-fit: contain; margin: 0;"> -->
-<img src="img/happy_harold_paintbrush.png" style="flex: 1; min-width: 0; height: 400px; object-fit: contain; margin: 0;">
+    <div style="flex: 1; min-width: 0;">
+        <img src="img/happy_harold_paintbrush.png" style="height: 400px;">
+    </div>
 </div>
 
 
