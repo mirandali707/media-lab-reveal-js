@@ -97,18 +97,35 @@ Existing methods are...
             labelled preference pairs
             </p>
             <img src="img/farpls_prefpairs.jpg" style="display: block; height: auto; width: 100%; max-width: 100%; max-height: none; margin: 0;">
+            <small style="display: block; margin-top: 0.75em; font-size: 0.45em; color: #666;">
+            Lyu, H., Bai, Y., Liang, X., Das, U., Shi, C., Gong, L., ... & Ma, X. (2024, March). FARPLS: A feature-augmented robot trajectory preference labeling system to assist human labelers’ preference elicitation. In Proceedings of the 29th International Conference on Intelligent User Interfaces (pp. 344-369).
+            </small>
         </div>
         <div class="fragment fade-in-then-out" data-fragment-index="2">
             <p>
             demonstrations + corrections
             </p>
             <img src="img/demos_corrections.png" style="display: block; height: auto; width: 100%; max-width: 100%; max-height: none; margin: 0;">
+            <small style="display: block; margin-top: 0.75em; font-size: 0.45em; color: #666;">
+            For example, (not pictured):
+            </br>
+            Demonstrations:
+            </br>
+            Finn, C., Levine, S., & Abbeel, P. (2016, June). Guided cost learning: Deep inverse optimal control via policy optimization. In International conference on machine learning (pp. 49-58). PMLR.
+            </br>
+            Corrections:
+            </br>
+            Bajcsy, A., Losey, D. P., O’malley, M. K., & Dragan, A. D. (2017, October). Learning robot objectives from physical human interaction. In Conference on robot learning (pp. 217-226). PMLR.
+            </small>
         </div>
         <div class="fragment fade-in-then-out" data-fragment-index="3">
             <p>
             language
             </p>
             <img src="img/cokecan_taylorswift.png" style="display: block; height: auto; width: 100%; max-width: 100%; max-height: none; margin: 0;">
+            <small style="display: block; margin-top: 0.75em; font-size: 0.45em; color: #666;">
+            Kim, M. J., Pertsch, K., Karamcheti, S., Xiao, T., Balakrishna, A., Nair, S., ... & Finn, C. (2024). OpenVLA: An open-source vision-language-action model. arXiv preprint arXiv:2406.09246.
+            </small>
         </div>
     </div>
     <div style="flex: 1; min-width: 0;">
@@ -136,18 +153,35 @@ Existing methods **cast the human as** a...
             labelled preference pairs
             </p>
             <img src="img/farpls_prefpairs.jpg" style="display: block; height: auto; width: 100%; max-width: 100%; max-height: none; margin: 0;">
+            <small style="display: block; margin-top: 0.75em; font-size: 0.45em; color: #666;">
+            Lyu, H., Bai, Y., Liang, X., Das, U., Shi, C., Gong, L., ... & Ma, X. (2024, March). FARPLS: A feature-augmented robot trajectory preference labeling system to assist human labelers’ preference elicitation. In Proceedings of the 29th International Conference on Intelligent User Interfaces (pp. 344-369).
+            </small>
         </div>
         <div class="fragment fade-in-then-out" data-fragment-index="2">
             <p>
             demonstrations + corrections
             </p>
             <img src="img/demos_corrections.png" style="display: block; height: auto; width: 100%; max-width: 100%; max-height: none; margin: 0;">
+            <small style="display: block; margin-top: 0.75em; font-size: 0.45em; color: #666;">
+            For example, (not pictured):
+            </br>
+            Demonstrations:
+            </br>
+            Finn, C., Levine, S., & Abbeel, P. (2016, June). Guided cost learning: Deep inverse optimal control via policy optimization. In International conference on machine learning (pp. 49-58). PMLR.
+            </br>
+            Corrections:
+            </br>
+            Bajcsy, A., Losey, D. P., O’malley, M. K., & Dragan, A. D. (2017, October). Learning robot objectives from physical human interaction. In Conference on robot learning (pp. 217-226). PMLR.
+            </small>
         </div>
         <div class="fragment fade-in-then-out" data-fragment-index="3">
             <p>
             language
             </p>
             <img src="img/cokecan_taylorswift.png" style="display: block; height: auto; width: 100%; max-width: 100%; max-height: none; margin: 0;">
+            <small style="display: block; margin-top: 0.75em; font-size: 0.45em; color: #666;">
+            Kim, M. J., Pertsch, K., Karamcheti, S., Xiao, T., Balakrishna, A., Nair, S., ... & Finn, C. (2024). OpenVLA: An open-source vision-language-action model. arXiv preprint arXiv:2406.09246.
+            </small>
         </div>
     </div>
     <div style="flex: 1; min-width: 0;">
