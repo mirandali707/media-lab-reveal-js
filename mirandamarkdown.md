@@ -129,7 +129,7 @@ Existing methods are...
             </small>
         </div>
     </div>
-    <div style="flex: 1; min-width: 0;">
+    <div style="flex: 1; min-width: 0; display: flex; flex-direction: column; justify-content: center;">
         <p class="fragment fade-in-then-semi-out" data-fragment-index="1">
         tedious
         </p>
@@ -185,7 +185,7 @@ Existing methods **cast the human as** a...
             </small>
         </div>
     </div>
-    <div style="flex: 1; min-width: 0;">
+    <div style="flex: 1; min-width: 0; display: flex; flex-direction: column; justify-content: center;">
         <div class="fragment fade-in-then-semi-out" data-fragment-index="1">
             <p>
             data labeller
@@ -376,7 +376,7 @@ Hart, S. G., & Staveland, L. E. (1988). Development of NASA-TLX (Task Load Index
     <h3>We want to specify <span style="color: green;">features $\phi(s)$</span></h3>
     <img src="img/personalrobot_features_3.png" style="height: auto; max-width: 100%; max-height: 100%; margin: 0;">
     </div>
-    <div style="flex: 1; min-width: 0;">
+    <div style="flex: 1; min-width: 0;display: flex; flex-direction: column; justify-content: center;">
         <div style="height: 100px; display: flex; align-items: center; justify-content: center;">
         <strong> Existing methods</strong>
         </div>
@@ -385,7 +385,7 @@ Hart, S. G., & Staveland, L. E. (1988). Development of NASA-TLX (Task Load Index
         <p class="fragment fade-in-then-semi-out" data-fragment-index="3">ambiguous</p>
         <!-- <p class="fragment fade-in-then-semi-out" data-fragment-index="4">uninterpretable</p> -->
     </div>
-    <div style="flex: 1; min-width: 0;">
+    <div style="flex: 1; min-width: 0;display: flex; flex-direction: column; justify-content: center;">
     <div style="height: 100px">
         <img src="img/phitoshop_logo.png" style="height: 100%; object-fit: contain; width: 100%;">
         </div>
