@@ -295,7 +295,7 @@ Workflow
 
 ## Interface
 <img src="img/phis_workflow_2.png" style="height: 400px; object-fit: contain; width: 100%;">
-
+<!-- 
 * Direct manipulation
 <small style="font-size: 0.45em; color: #666;width:400px">
 Hutchins, E. L., Hollan, J. D., & Norman, D. A. (1986). Direct manipulation interfaces. In User centered system design (pp. 87-124). CRC Press.
@@ -304,7 +304,7 @@ Hutchins, E. L., Hollan, J. D., & Norman, D. A. (1986). Direct manipulation inte
 * Interpretability interfaces
 <small style="font-size: 0.45em; color: #666;width:400px">
 Boggust, A., Bang, H., Strobelt, H., & Satyanarayan, A. (2025, April). Abstraction alignment: comparing model-learned and human-encoded conceptual relationships. In Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems (pp. 1-20).
-</small>
+</small> -->
 <!-- * End-user programming -->
 
 
@@ -370,8 +370,12 @@ Hart, S. G., & Staveland, L. E. (1988). Development of NASA-TLX (Task Load Index
 
 <div style="display: flex; gap: 24px; width: 100%;">
     <div style="flex: 1; min-width: 0;">
-        <div style="height: 100px">
-        <h3 > Existing methods</h3>
+    <h3>We want to specify <span style="color: green;">features $\phi(s)$</span></h3>
+    <img src="img/personalrobot_features_3.png" style="height: auto; max-width: 100%; max-height: 100%; margin: 0;">
+    </div>
+    <div style="flex: 1; min-width: 0;">
+        <div style="height: 100px; display: flex; align-items: center; justify-content: center;">
+        <strong> Existing methods</strong>
         </div>
         <p class="fragment fade-in-then-semi-out" data-fragment-index="1">tedious</p>
         <p class="fragment fade-in-then-semi-out" data-fragment-index="2">expensive</p>
