@@ -103,8 +103,62 @@ Existing methods are...
 
 
 
+
+Existing methods ~are~ cast the human as a...
+
+<div style="display: flex; gap: 24px; width: 100%;">
+    <div class="r-stack" style="flex: 1; min-width: 0;">
+        <div class="fragment fade-in-then-out" data-fragment-index="1">
+            <p>
+            labelled preference pairs
+            </p>
+            <img src="img/farpls_prefpairs.jpg" style="display: block; height: auto; width: 100%; max-width: 100%; max-height: none; margin: 0;">
+        </div>
+        <div class="fragment fade-in-then-out" data-fragment-index="2">
+            <p>
+            demonstrations + corrections
+            </p>
+            <img src="img/demos_corrections.png" style="display: block; height: auto; width: 100%; max-width: 100%; max-height: none; margin: 0;">
+        </div>
+        <div class="fragment fade-in-then-out" data-fragment-index="3">
+            <p>
+            language
+            </p>
+            <img src="img/cokecan_taylorswift.png" style="display: block; height: auto; width: 100%; max-width: 100%; max-height: none; margin: 0;">
+        </div>
+    </div>
+    <div style="flex: 1; min-width: 0;">
+        <div class="fragment fade-in-then-semi-out" data-fragment-index="1">
+            <p>
+            data labeller
+            </p>
+            <!-- <img src="img/faceplant.png" style="display: block; height: auto; width: 100%; max-width: 100%; max-height: none; margin: 0;"> -->
+        </div>
+        <div class="fragment fade-in-then-semi-out" data-fragment-index="2">
+            <p>
+            data labeller but with more steps
+            </p>
+            <!-- <img src="img/faceplant_vr.png" style="display: block; height: auto; width: 100%; max-width: 100%; max-height: none; margin: 0;"> -->
+        </div>
+        <div class="fragment fade-in-then-semi-out" data-fragment-index="3">
+            <p>
+            prompt engineer
+            </p>
+            <!-- <img src="img/faceplant_vr.png" style="display: block; height: auto; width: 100%; max-width: 100%; max-height: none; margin: 0;"> -->
+        </div>
+        <!-- images -->
+        <div class="r-stack" style="flex: 1; min-width: 0;">
+            <img class="fragment fade-in-then-out" src="img/faceplant.png" style="display: block; height: auto; width: 200px;" data-fragment-index="1">
+            <img class="fragment fade-in-then-out" src="img/faceplant_vr.png" style="display: block; height: auto; width: 200px;" data-fragment-index="2">
+            <img class="fragment fade-in-then-out" src="img/faceplant.png" style="display: block; height: auto; width: 200px;" data-fragment-index="3">
+        </div>
+    </div>
+</div>
+
+
+
 <!-- .slide: data-auto-animate data-background-color="black" data-transition="zoom"-->
-<h1>($\phi$)toshop</h1>
+<h1>($\phi$)toshop: human-robot alignment as craft</h1>
 <img src="img/phitoshop_logo.png" style="height: 300px">
 
 
