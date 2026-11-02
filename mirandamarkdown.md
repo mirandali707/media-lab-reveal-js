@@ -454,7 +454,6 @@ Who is the human, in <strong>human</strong>-robot interaction?
 <img src="img/timeline.png" style="flex: 1; min-width: 0; height: 400px; object-fit: contain; margin: 0;">
 
 
-
 <img src="img/phitoshop_1.png" style="flex: 1; min-width: 0; height: 400px; object-fit: contain; margin: 0;">
 
 
