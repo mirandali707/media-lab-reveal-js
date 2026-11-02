@@ -5,7 +5,7 @@
 
 
 
-Thesis readers
+<h3>Thesis readers</h3>
 <div style="display: flex; gap: 24px; width: 100%;">
     <p class="fragment fade-in" style="flex: 1; min-width: 0;">
         Cynthia Breazeal
@@ -272,6 +272,22 @@ Existing methods **cast the human as** a...
 
 
 
+## Interface
+<img src="img/phis_workflow_2.png" style="height: 400px; object-fit: contain; width: 100%;">
+<!-- 
+* Direct manipulation
+<small style="font-size: 0.45em; color: #666;width:400px">
+Hutchins, E. L., Hollan, J. D., & Norman, D. A. (1986). Direct manipulation interfaces. In User centered system design (pp. 87-124). CRC Press.
+</small>
+
+* Interpretability interfaces
+<small style="font-size: 0.45em; color: #666;width:400px">
+Boggust, A., Bang, H., Strobelt, H., & Satyanarayan, A. (2025, April). Abstraction alignment: comparing model-learned and human-encoded conceptual relationships. In Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems (pp. 1-20).
+</small> -->
+<!-- * End-user programming -->
+
+
+
 ## Interface: tools
 <div style="display: flex; gap: 24px; width: 100%;">
     <p class="fragment fade-in-then-semi-out" style="flex: 1; min-width: 0;">
@@ -293,22 +309,6 @@ Existing methods **cast the human as** a...
         </small>
     </p>
 </div>
-
-
-
-## Interface
-<img src="img/phis_workflow_2.png" style="height: 400px; object-fit: contain; width: 100%;">
-<!-- 
-* Direct manipulation
-<small style="font-size: 0.45em; color: #666;width:400px">
-Hutchins, E. L., Hollan, J. D., & Norman, D. A. (1986). Direct manipulation interfaces. In User centered system design (pp. 87-124). CRC Press.
-</small>
-
-* Interpretability interfaces
-<small style="font-size: 0.45em; color: #666;width:400px">
-Boggust, A., Bang, H., Strobelt, H., & Satyanarayan, A. (2025, April). Abstraction alignment: comparing model-learned and human-encoded conceptual relationships. In Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems (pp. 1-20).
-</small> -->
-<!-- * End-user programming -->
 
 
 
