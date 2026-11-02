@@ -93,7 +93,8 @@ Existing methods are...
 
 <div style="display: flex; gap: 24px; width: 100%;">
     <div class="r-stack" style="flex: 1; min-width: 0;">
-        <div class="fragment fade-in-then-out" data-fragment-index="1">
+        <div class="fragment fade-out" data-fragment-index="3">
+        <div class="fragment fade-in" data-fragment-index="1">
             <p>
             labelled preference pairs
             </p>
@@ -102,7 +103,9 @@ Existing methods are...
             Lyu, H., Bai, Y., Liang, X., Das, U., Shi, C., Gong, L., ... & Ma, X. (2024, March). FARPLS: A feature-augmented robot trajectory preference labeling system to assist human labelers’ preference elicitation. In Proceedings of the 29th International Conference on Intelligent User Interfaces (pp. 344-369).
             </small>
         </div>
-        <div class="fragment fade-in-then-out" data-fragment-index="2">
+        </div>
+        <div class="fragment fade-out" data-fragment-index="5">
+        <div class="fragment fade-in" data-fragment-index="3">
             <p>
             demonstrations + corrections
             </p>
@@ -119,7 +122,8 @@ Existing methods are...
             Bajcsy, A., Losey, D. P., O’malley, M. K., & Dragan, A. D. (2017, October). Learning robot objectives from physical human interaction. In Conference on robot learning (pp. 217-226). PMLR.
             </small>
         </div>
-        <div class="fragment fade-in-then-out" data-fragment-index="3">
+        </div>
+        <div class="fragment fade-in" data-fragment-index="5">
             <p>
             language
             </p>
@@ -130,13 +134,13 @@ Existing methods are...
         </div>
     </div>
     <div style="flex: 1; min-width: 0; display: flex; flex-direction: column; justify-content: center;">
-        <p class="fragment fade-in-then-semi-out" data-fragment-index="1">
+        <p class="fragment fade-in-then-semi-out" data-fragment-index="2">
         tedious
         </p>
-        <p class="fragment fade-in-then-semi-out" data-fragment-index="2">
+        <p class="fragment fade-in-then-semi-out" data-fragment-index="4">
         expensive
         </p>
-        <p class="fragment fade-in-then-semi-out" data-fragment-index="3">
+        <p class="fragment fade-in-then-semi-out" data-fragment-index="6">
         ambiguous
         </p>
     </div>
