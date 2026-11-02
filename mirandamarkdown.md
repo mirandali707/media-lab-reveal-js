@@ -419,6 +419,13 @@ Hart, S. G., & Staveland, L. E. (1988). Development of NASA-TLX (Task Load Index
 
 
 # Appendix
-timeline
-phitoshop sketches
-tool descriptions
+
+
+<img src="img/timeline.png" style="flex: 1; min-width: 0; height: 400px; object-fit: contain; margin: 0;">
+
+
+
+<img src="img/phitoshop_1.png" style="flex: 1; min-width: 0; height: 400px; object-fit: contain; margin: 0;">
+
+
+<img src="img/phitoshop_2.png" style="flex: 1; min-width: 0; height: 400px; object-fit: contain; margin: 0;">
