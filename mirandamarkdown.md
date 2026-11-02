@@ -1,11 +1,28 @@
 # ($\phi$)toshop: *human-robot alignment as craft*
 *Miranda Li*
-<!-- TODO design this slide! maybe make a collage? -->
-Advisor: Cynthia Breazeal
-<!-- at prg we are ... -->
 
-Thesis readers: Arvind Satyanarayan, Andreea Bobu, Crystal Lee
-<!-- arvind does ..., andreea does ..., crystal does ... -->
+
+
+
+Thesis readers
+<div style="display: flex; gap: 24px; width: 100%;">
+    <p class="fragment fade-in" style="flex: 1; min-width: 0;">
+        Cynthia Breazeal
+        <img src="img/cynthia.jpg" style="height: 200px; object-fit: contain; width: 100%;">
+    </p>
+    <p class="fragment fade-in" style="flex: 1; min-width: 0;">
+        Arvind Satyanarayan
+        <img src="img/arvind.jpg" style="height: 200px; object-fit: contain; width: 100%;">
+    </p>
+    <p class="fragment fade-in" style="flex: 1; min-width: 0;">
+        Andreea Bobu
+        <img src="img/andreea.jpg" style="height: 200px; object-fit: contain; width: 100%;">
+    </p>
+    <p class="fragment fade-in" style="flex: 1; min-width: 0;">
+        Crystal Lee
+        <img src="img/crystal.jpeg" style="height: 200px; object-fit: contain; width: 100%;">
+    </p>
+</div>
 
 
 
@@ -254,12 +271,12 @@ interpretability interfaces -->
 
 
 
-<img src="img/personalrobot_human.png" style="height: 100%; object-fit: contain; width: 100%;">
+<img src="img/personalrobot_human.png" style="height: 700px; object-fit: contain; width: 100%;">
 
 
 
 # Thank you!
-<div style="display: flex; gap: 24px; width: 100%;">
+<div style="display: flex; gap: 4px; width: 100%;">
 <img src="img/phitoshop_logo.png" style="flex: 1; min-width: 0; height: 400px; object-fit: contain; margin: 0;">
 <img src="img/happy_harold_paintbrush.png" style="flex: 1; min-width: 0; height: 400px; object-fit: contain; margin: 0;">
 </div>
