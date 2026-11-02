@@ -68,14 +68,17 @@ To get intelligent, autonomous robots to work safely alongside humans, we need t
         <p class="fragment fade-in-then-semi-out" data-fragment-index="1">
             $r(s)$: reward function ("how good is this state?")
         </p>
-        <p class="fragment fade-in-then-semi-out" data-fragment-index="2">
-            $\phi(s)$: features ("what is important about this state?")
+        <p class="fragment fade-in-out" data-fragment-index="2">
+            $\phi(s)$: <span style="color: green;">features</span> ("what is important about this state?")
         </p>
         <p class="fragment fade-in-then-semi-out" data-fragment-index="5">
             We assume $r(s) = \theta \cdot \phi(s)$.
         </p>
         <p class="fragment fade-in-then-semi-out" data-fragment-index="6">
-            We want to teach the robot the features $\phi(s)$ we care about.
+            Learning <span style="color: green;">features</span>, then combining them into rewards, is more efficient and generalizable than learning rewards from the state directly.
+        </p>
+        <p class="fragment fade-in-then-semi-out" data-fragment-index="7">
+            How do we teach the robot the <span style="color: green;">features</span> $\phi(s)$ we care about?
         </p>
     </div>
 </div>
@@ -186,6 +189,9 @@ Workflow
 
 <div class="r-stack">
     <p class="fragment fade-in-then-out">
+        <img src="img/phis_workflow_0.png" style="height: 400px; object-fit: contain; width: 100%;">
+    </p>
+    <p class="fragment fade-in-then-out">
         <img src="img/phis_workflow_1.png" style="height: 400px; object-fit: contain; width: 100%;">
     </p>
     <p class="fragment fade-in-then-out">
@@ -271,7 +277,7 @@ interpretability interfaces -->
 
 
 
-<img src="img/personalrobot_human.png" style="height: 700px; object-fit: contain; width: 100%;">
+<img src="img/personalrobot_human.png" style="height: 600px; object-fit: contain; width: 100%;">
 
 
 
