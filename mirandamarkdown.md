@@ -174,8 +174,11 @@ Workflow
     <p class="fragment fade-in-then-out">
         <img src="img/phis_workflow_2.png" style="height: 400px; object-fit: contain; width: 100%;">
     </p>
-    <p class="fragment fade-in-then-out">
+    <p class="fragment fade-in">
         <img src="img/phis_workflow_3.png" style="height: 400px; object-fit: contain; width: 100%;">
+    </p>
+    <p class="fragment fade-in">
+        <img src="img/happy_harold_paintbrush.png" style="height: 400px; object-fit: contain; width: 100%;">
     </p>
 </div>
 
