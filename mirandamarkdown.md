@@ -346,14 +346,23 @@ Hart, S. G., & Staveland, L. E. (1988). Development of NASA-TLX (Task Load Index
     <p class="fragment fade-in-then-semi-out" style="flex: 1; min-width: 0;">
         2D navigation
         <img src="img/gridrobot.png" style="height: 200px; object-fit: contain; width: 100%;">
+        <small style="font-size: 0.45em; color: #666;">
+        Bobu, A., Liu, Y., Shah, R., Brown, D. S., & Dragan, A. D. (2023, March). Sirl: Similarity-based implicit representation learning. In Proceedings of the 2023 ACM/IEEE International Conference on Human-Robot Interaction (pp. 565-574).
+        </small>
     </p>
     <p class="fragment fade-in-then-semi-out" style="flex: 1; min-width: 0;">
         Vehicle parking
         <img src="img/vehicleparking.png" style="height: 200px; object-fit: contain; width: 100%;">
+        <small style="font-size: 0.45em; color: #666;">
+        Srivastava, M., Goodman, N., & Sadigh, D. (2023, July). Generating language corrections for teaching physical control tasks. In International Conference on Machine Learning (pp. 32561-32574). PMLR.
+        </small>
     </p>
     <p class="fragment fade-in-then-semi-out" style="flex: 1; min-width: 0;">
         Swimmer (stretch)
         <img src="img/swimmer.png" style="height: 200px; object-fit: contain; width: 100%;">
+        <small style="font-size: 0.45em; color: #666;">
+        Zhang, D., Carroll, M., Bobu, A., & Dragan, A. (2022). Time-efficient reward learning via visually assisted cluster ranking. arXiv preprint arXiv:2212.00169.
+        </small>
     </p>
 </div>
 
