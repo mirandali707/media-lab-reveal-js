@@ -1,4 +1,5 @@
-# ($\phi$)toshop: *human-robot alignment as craft*
+# ($\phi$)toshop: 
+## *human-robot alignment as craft*
 *Miranda Li*
 
 
@@ -221,27 +222,29 @@ Existing methods **cast the human as** a...
 
 
 <!-- .slide: data-auto-animate -->
-<img src="img/phitoshop_logo.png" style="height: 100px">
-Workflow
+<div style="display: flex; gap: 24px; align-items: center; justify-content: center;">
+<img src="img/phitoshop_logo.png" style="height: 100px; margin: 0;">
+<h3>Workflow</h3>
+</div>
 
 <div class="r-stack">
     <p class="fragment fade-in-then-out" data-fragment-index="1">
-        <img src="img/phis_workflow_0.png" style="height: 400px; object-fit: contain; width: 100%;">
+        <img src="img/phis_workflow_0.png" style="height: 300px; object-fit: contain; width: 100%;">
     </p>
     <p class="fragment fade-in-then-out" data-fragment-index="2">
-        <img src="img/phis_workflow_1.png" style="height: 400px; object-fit: contain; width: 100%;">
+        <img src="img/phis_workflow_1.png" style="height: 300px; object-fit: contain; width: 100%;">
     </p>
     <p class="fragment fade-in-then-out" data-fragment-index="3">
-        <img src="img/phis_workflow_select.png" style="height: 400px; object-fit: contain; width: 100%;">
+        <img src="img/phis_workflow_select.png" style="height: 300px; object-fit: contain; width: 100%;">
     </p>
     <p class="fragment fade-in-then-out" data-fragment-index="4">
-        <img src="img/phis_workflow_2.png" style="height: 400px; object-fit: contain; width: 100%;">
+        <img src="img/phis_workflow_2.png" style="height: 300px; object-fit: contain; width: 100%;">
     </p>
     <p class="fragment fade-in-then-semi-out" data-fragment-index="5">
-        <img src="img/phis_workflow_3.png" style="height: 400px; object-fit: contain; width: 100%;">
+        <img src="img/phis_workflow_3.png" style="height: 300px; object-fit: contain; width: 100%;">
     </p>
     <p class="fragment fade-in" data-fragment-index="6">
-        <img src="img/happy_harold_paintbrush.png" style="height: 400px; object-fit: contain; width: 100%;">
+        <img src="img/happy_harold_paintbrush.png" style="height: 300px; object-fit: contain; width: 100%;">
     </p>
 </div>
 <div class="r-stack">
@@ -409,7 +412,7 @@ Hart, S. G., & Staveland, L. E. (1988). Development of NASA-TLX (Task Load Index
 
 # Thank you!
 <div style="display: flex; gap: 4px; width: 100%;">
-<img src="img/phitoshop_logo.png" style="flex: 1; min-width: 0; height: 400px; object-fit: contain; margin: 0;">
+<!-- <img src="img/phitoshop_logo.png" style="flex: 1; min-width: 0; height: 400px; object-fit: contain; margin: 0;"> -->
 <img src="img/happy_harold_paintbrush.png" style="flex: 1; min-width: 0; height: 400px; object-fit: contain; margin: 0;">
 </div>
 
