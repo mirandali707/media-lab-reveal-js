@@ -254,14 +254,15 @@ interpretability interfaces -->
 
 
 
-# goal
-representational alignment as craft
-end-user robot programming
-(same image as title slide)
+<img src="img/personalrobot_human.png" style="height: 100%; object-fit: contain; width: 100%;">
 
 
 
 # Thank you!
+<div style="display: flex; gap: 24px; width: 100%;">
+<img src="img/phitoshop_logo.png" style="flex: 1; min-width: 0; height: 400px; object-fit: contain; margin: 0;">
+<img src="img/happy_harold_paintbrush.png" style="flex: 1; min-width: 0; height: 400px; object-fit: contain; margin: 0;">
+</div>
 
 
 
