@@ -216,7 +216,9 @@ Existing methods **cast the human as** a...
 
 
 <!-- .slide: data-auto-animate data-background-color="black" data-transition="zoom"-->
-<h1>($\phi$)toshop: human-robot alignment as craft</h1>
+# ($\phi$)toshop: 
+## *human-robot alignment as craft*
+
 <img src="img/phitoshop_logo.png" style="height: 300px">
 
 
@@ -406,10 +408,16 @@ Hart, S. G., & Staveland, L. E. (1988). Development of NASA-TLX (Task Load Index
 
 
 
-<img src="img/personalrobot_human.png" style="height: 600px; object-fit: contain; width: 100%;">
+<!-- .slide: data-auto-animate -->
+<div style="display: flex; gap: 24px; width: 100%; align-items: center;">
+    <img src="img/faceplant.png" style="flex: 1; min-width: 0; height: 200px; object-fit: contain; margin: 0;" class="fragment">
+    <img src="img/personalrobot_human.png" style="flex: 1; min-width: 0; height: 600px; object-fit: contain; margin: 0;">
+    <img src="img/happy_harold_paintbrush.png" style="flex: 1; min-width: 0; height: 300px; object-fit: contain; margin: 0;" class="fragment">
+</div>
 
 
 
+<!-- .slide: data-auto-animate -->
 # Thank you!
 <div style="display: flex; gap: 4px; width: 100%;">
 <!-- <img src="img/phitoshop_logo.png" style="flex: 1; min-width: 0; height: 400px; object-fit: contain; margin: 0;"> -->
